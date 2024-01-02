@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:text="find:"
+        android:textColor="@color/title"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/api1Button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/custom_button"
+        android:text="state population"
+        android:textColor="@color/text"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button"
+        android:text="Button"
+        android:textColor="@color/text"
+        android:textSize="24sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
